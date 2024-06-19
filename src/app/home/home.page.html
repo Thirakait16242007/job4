@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title color="dark">
+      App BMI
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="dark">
+  <br>
+  <div class="ion-text-center"><img src="../../assets/icon/gg-Photoroom.png" style="width: 50%;"></div>
+
+  <ion-card color="success" class="ion-padding">
+    <ion-item color="dark">
+      <ion-input label="กรอกน้ำหนัก kg"></ion-input>
+    </ion-item>
+    <ion-item color="dark">
+      <ion-input label="กรอกส่วนสูง    cm"></ion-input>
+    </ion-item>
+
+    <br>
+    <div class="ion-text-center">
+      <ion-button color="warning" size="large" expand="block"
+       shape="round">คำนวณ</ion-button>
+    </div>
+  </ion-card>
+  <ion-button color="" size="large" expand="block">
+    ผลลัพธ์
+  </ion-button>
+  <br>
+  <ion-button color="danger" size="large" expand="block">
+    แปรผล
+  </ion-button>
+</ion-content>
